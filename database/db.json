@@ -1,0 +1,527 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "username": "esther",
+        "password": "HJ@#9783kja",
+        "email": "esther@example.com",
+        "fullName": "Esther Howard"
+      },
+      {
+        "id": "2",
+        "username": "giap",
+        "password": "password123",
+        "email": "giap@example.com",
+        "fullName": "Giap Nguyen",
+        "avatar": "https://th.bing.com/th/id/OIP._3fNcBmQlJSWs2v35ROBYQHaE7?w=182&h=121&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      },
+      {
+        "id": "16bf",
+        "username": "giap",
+        "password": "123",
+        "email": "tranthanhhuyen0404@gmail.com",
+        "fullName": "giap",
+        "avatar": "https://th.bing.com/th/id/OIP.uhZhx6lkAgcKd5c8XRd1YAHaIH?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "address": {
+          "name": "Trần Minh Giáp",
+          "country": "Việt Nam",
+          "city": "Hà Nội",
+          "phone": "0396434223",
+          "addressDetail": "Cổ Nhuế 2",
+          "isPrimary": true
+        }
+      },
+      {
+        "id": "cd56",
+        "username": "huy",
+        "password": "123",
+        "email": "huy@gmail.com",
+        "fullName": "huy"
+      },
+      {
+        "id": "8c8c",
+        "username": "tuan",
+        "password": "123",
+        "email": "tuan@gnail.com",
+        "fullName": "tuan",
+        "address": {
+          "name": "Tuấn",
+          "country": "VN",
+          "city": "Hà nooik",
+          "phone": "396434223",
+          "addressDetail": "Hâ",
+          "isPrimary": true
+        }
+      }
+    ],
+    "products": [
+      {
+        "id": "1",
+        "title": "Nike Sportswear Club Fleece",
+        "price": 99,
+        "image": "https://aloyou.vn/wp-content/uploads/2019/12/ao-phong-nam-aloyou-PN32.jpg",
+        "category": "Nike",
+        "description": "Premium French terry fabric with a performance feel.",
+        "quantity": 70
+      },
+      {
+        "id": "2",
+        "title": "Adidas Originals T-Shirt",
+        "price": 45,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.CnGI1ztH2-D8CSUPZl7liAHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Adidas",
+        "description": "Classic cotton t-shirt with iconic branding.",
+        "quantity": 50
+      },
+      {
+        "id": "3",
+        "title": "Puma Running Shoes",
+        "price": 120,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.9qbl4xBsT-AGYnH4As4zswHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Puma",
+        "description": "Lightweight running shoes for maximum comfort.",
+        "quantity": 30
+      },
+      {
+        "id": "4",
+        "title": "Under Armour Hoodie",
+        "price": 80,
+        "image": "https://tse3.mm.bing.net/th/id/OIP.GYyfeye3_X7JCoF6PZBZCQHaJP?pid=ImgDet&w=185&h=230&c=7&dpr=1.3",
+        "category": "Under Armour",
+        "description": "Warm and breathable hoodie for workouts.",
+        "quantity": 40
+      },
+      {
+        "id": "5",
+        "title": "New Balance Classic Sneakers",
+        "price": 110,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.3Bv126z3wXPnKVLuSm3ylwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "New Balance",
+        "description": "Timeless design with cushioned support.",
+        "quantity": 25
+      },
+      {
+        "id": "6",
+        "title": "Reebok Workout Shorts",
+        "price": 35,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.v2uCtS8Ddsg52H50L-mneQAAAA?pid=ImgDet&w=185&h=236&c=7&dpr=1.3",
+        "category": "Reebok",
+        "description": "Flexible and moisture-wicking fabric.",
+        "quantity": 60
+      },
+      {
+        "id": "7",
+        "title": "Nike Air Max 270",
+        "price": 150,
+        "image": "https://tse1.mm.bing.net/th/id/OIP.8LBFK8nKkw85hiw3ZbSyXQHaHX?pid=ImgDet&w=185&h=183&c=7&dpr=1.3",
+        "category": "Nike",
+        "description": "Iconic sneakers with responsive cushioning.",
+        "quantity": 20
+      },
+      {
+        "id": "8",
+        "title": "Adidas Ultraboost 21",
+        "price": 180,
+        "image": "https://tse3.mm.bing.net/th/id/OIP.k5QupMFQNbKZD5uVx9n2uwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Adidas",
+        "description": "High-energy return for long-distance runs.",
+        "quantity": 15
+      },
+      {
+        "id": "9",
+        "title": "Puma Training Jacket",
+        "price": 65,
+        "image": "https://tse1.mm.bing.net/th/id/OIP.k2BbFda0avEau2n9rrWP_gHaJ3?pid=ImgDet&w=185&h=245&c=7&dpr=1.3",
+        "category": "Puma",
+        "description": "Windproof and water-resistant for outdoor workouts.",
+        "quantity": 35
+      },
+      {
+        "id": "10",
+        "title": "Under Armour Compression Pants",
+        "price": 55,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.HXgsZ3vZnWyzalrT28LAuwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Under Armour",
+        "description": "Muscle support and sweat-wicking technology.",
+        "quantity": 45
+      },
+      {
+        "id": "11",
+        "title": "New Balance Running Cap",
+        "price": 25,
+        "image": "https://tse1.mm.bing.net/th/id/OIP.oiZNqwxp3Xy3T579ZqUGbAHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "New Balance",
+        "description": "Lightweight and breathable for sunny runs.",
+        "quantity": 80
+      },
+      {
+        "id": "12",
+        "title": "Reebok CrossFit Gloves",
+        "price": 30,
+        "image": "https://th.bing.com/th/id/OIP.rby__9sYpb7OZsC_ifxevQHaFg?w=257&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "category": "Reebok",
+        "description": "Enhanced grip and wrist support.",
+        "quantity": 55
+      },
+      {
+        "id": "13",
+        "title": "Nike Dri-FIT Leggings",
+        "price": 70,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.g1FCVvBmbLFJUQoV7pWgwAHaKK?pid=ImgDet&w=185&h=254&c=7&dpr=1.3",
+        "category": "Nike",
+        "description": "Slim-fit leggings with sweat-wicking fabric.",
+        "quantity": 38
+      },
+      {
+        "id": "14",
+        "title": "Adidas Soccer Ball",
+        "price": 40,
+        "image": "https://tse3.mm.bing.net/th/id/OIP.I-7fT_5K2-aio1tAxFK9YQAAAA?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Adidas",
+        "description": "Official size and weight for professional play.",
+        "quantity": 90
+      },
+      {
+        "id": "15",
+        "title": "Puma Backpack",
+        "price": 50,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.IuNK2FVJgO4TqN0V1ZEVFwHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Puma",
+        "description": "Spacious and durable for gym essentials.",
+        "quantity": 42
+      },
+      {
+        "id": "16",
+        "title": "Under Armour Training Shoes",
+        "price": 95,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.-D1OIt_qj61hzN1NHm4CoQHaJT?pid=ImgDet&w=185&h=232&c=7&dpr=1.3",
+        "category": "Under Armour",
+        "description": "Stable and supportive for weightlifting.",
+        "quantity": 28
+      },
+      {
+        "id": "17",
+        "title": "New Balance Track Jacket",
+        "price": 75,
+        "image": "https://tse1.explicit.bing.net/th/id/OIP._XKFY48ID7vartIrh1b38QHaI4?pid=ImgDet&w=185&h=222&c=7&dpr=1.3",
+        "category": "New Balance",
+        "description": "Classic style with modern performance.",
+        "quantity": 33
+      },
+      {
+        "id": "18",
+        "title": "Reebok Yoga Mat",
+        "price": 35,
+        "image": "https://tse3.mm.bing.net/th/id/OIP.CSYHzuOyEYhreMQkHMBumQHaI0?pid=ImgDet&w=185&h=220&c=7&dpr=1.3",
+        "category": "Reebok",
+        "description": "Non-slip surface for stability.",
+        "quantity": 65
+      },
+      {
+        "id": "19",
+        "title": "Nike Basketball Jersey",
+        "price": 85,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.X7fVPKDlNDCuYpSLJeL8ewHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Nike",
+        "description": "Breathable mesh for on-court performance.",
+        "quantity": 48
+      },
+      {
+        "id": "20",
+        "title": "Adidas Training Socks",
+        "price": 15,
+        "image": "https://tse1.mm.bing.net/th/id/OIP.m3zW_tWEgGhbh-lNIh3EygHaJ3?pid=ImgDet&w=185&h=246&c=7&dpr=1.3",
+        "category": "Adidas",
+        "description": "Cushioned support for intense workouts.",
+        "quantity": 120
+      },
+      {
+        "id": "21",
+        "title": "Puma Sunglasses",
+        "price": 60,
+        "image": "https://cf.shopee.vn/file/756a09ac7b5db0ff35a36e144a00bfa2",
+        "category": "Puma",
+        "description": "UV protection with sporty design.",
+        "quantity": 40
+      },
+      {
+        "id": "22",
+        "title": "Under Armour Gym Bag",
+        "price": 45,
+        "image": "https://tse1.mm.bing.net/th/id/OIP.Oo0hmJp0Uf9KwPbqkFhqHwHaIk?pid=ImgDet&w=185&h=214&c=7&dpr=1.3",
+        "category": "Under Armour",
+        "description": "Multiple compartments for organization.",
+        "quantity": 52
+      },
+      {
+        "id": "23",
+        "title": "New Balance Running Socks",
+        "price": 20,
+        "image": "https://tse3.mm.bing.net/th/id/OIP.rEgXxepF_9LIEqwobE1QfAHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "New Balance",
+        "description": "Moisture-wicking and blister-resistant.",
+        "quantity": 75
+      },
+      {
+        "id": "24",
+        "title": "Reebok Weightlifting Belt",
+        "price": 55,
+        "image": "https://cf.shopee.vn/file/cda825803451cee7c8fea2defefb543b",
+        "category": "Reebok",
+        "description": "Supports core during heavy lifts.",
+        "quantity": 30
+      },
+      {
+        "id": "25",
+        "title": "Nike Training Shorts",
+        "price": 40,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.V4aROkRNbdfyT_3GejTm_QHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Nike",
+        "description": "Lightweight and quick-drying fabric.",
+        "quantity": 60
+      },
+      {
+        "id": "26",
+        "title": "Adidas Swim Trunks",
+        "price": 50,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.Rc713-e4dndUvnd4Hh1OWQHaJc?pid=ImgDet&w=185&h=236&c=7&dpr=1.3",
+        "category": "Adidas",
+        "description": "Chlorine-resistant and quick-drying.",
+        "quantity": 35
+      },
+      {
+        "id": "27",
+        "title": "Puma Water Bottle",
+        "price": 18,
+        "image": "https://i.pinimg.com/originals/5b/34/69/5b3469f391616d54bcb261e205901eac.jpg",
+        "category": "Puma",
+        "description": "Leak-proof and BPA-free.",
+        "quantity": 85
+      },
+      {
+        "id": "28",
+        "title": "Under Armour Headband",
+        "price": 12,
+        "image": "https://www.chuphinhsanpham.vn/wp-content/uploads/2021/06/chup-hinh-giay-dincox-shoes-c-photo-studio-4.jpg",
+        "category": "Under Armour",
+        "description": "Keeps sweat away during workouts.",
+        "quantity": 100
+      },
+      {
+        "id": "29",
+        "title": "New Balance Arm Sleeves",
+        "price": 22,
+        "image": "https://tse4.mm.bing.net/th/id/OIP.HPfXUCmw9vwyO6eMoo-MHgHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "New Balance",
+        "description": "UV protection and compression fit.",
+        "quantity": 50
+      },
+      {
+        "id": "30",
+        "title": "Reebok Jump Rope",
+        "price": 15,
+        "image": "https://tse2.mm.bing.net/th/id/OIP.uP9Q9gMAhpOw2NvRJjCxxAHaHa?pid=ImgDet&w=185&h=185&c=7&dpr=1.3",
+        "category": "Reebok",
+        "description": "Adjustable length for cardio training.",
+        "quantity": 70
+      }
+    ],
+    "cart": [
+      {
+        "id": "1",
+        "userId": 1,
+        "productId": 1,
+        "quantity": 1
+      }
+    ],
+    "categories": [
+      {
+        "id": "1",
+        "name": "Adidas",
+        "logo": "https://th.bing.com/th/id/OIP.mmJ90LkDm717sA5Fur1UzQHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+      },
+      {
+        "id": "2",
+        "name": "Nike",
+        "logo": "https://th.bing.com/th/id/OIP.fOEu5v5LvP4urmTCGM5AfgHaD2?w=346&h=180&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+      },
+      {
+        "id": "3",
+        "name": "Fila",
+        "logo": "https://tse2.mm.bing.net/th/id/OIP.Yj0_dLd9xLfQEPhHVkvr4QHaHa?rs=1&pid=ImgDetMain"
+      },
+      {
+        "id": "4",
+        "name": "Puma",
+        "logo": "https://th.bing.com/th/id/OIP.bIpRuMpJq65kx2JXdqqZgAHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+      },
+      {
+        "id": "5",
+        "name": "Under Armour",
+        "logo": "https://th.bing.com/th/id/OIP.pA8TxX-zzZnGzNxOEjuH-QHaHa?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      },
+      {
+        "id": "6",
+        "name": "New Balance",
+        "logo": "https://th.bing.com/th/id/OIP.qbgERgaoB-7s6Uj8ytKemwHaFj?w=241&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      },
+      {
+        "id": "7",
+        "name": "Reebok",
+        "logo": "https://th.bing.com/th/id/OIP.gUfCQ7rp6S9j20n3r-DyigHaGB?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      }
+    ],
+    "orders": [
+      {
+        "id": "1",
+        "userId": 1,
+        "products": [
+          {
+            "productId": 1,
+            "quantity": 2
+          },
+          {
+            "productId": 2,
+            "quantity": 1
+          }
+        ],
+        "total": 297,
+        "date": "2025-04-17"
+      },
+      {
+        "id": "7b6f",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "2",
+            "quantity": 2
+          }
+        ],
+        "total": 100,
+        "date": "2025-04-18"
+      },
+      {
+        "id": "0135",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "2",
+            "quantity": 2
+          }
+        ],
+        "total": 100,
+        "date": "2025-04-18"
+      },
+      {
+        "id": "c09e",
+        "userId": "cd56",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 2
+          }
+        ],
+        "total": 208,
+        "date": "2025-04-18"
+      },
+      {
+        "id": "7e48",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "6",
+            "quantity": 2
+          },
+          {
+            "productId": "2",
+            "quantity": 1
+          },
+          {
+            "productId": "3",
+            "quantity": 2
+          },
+          {
+            "productId": "4",
+            "quantity": 1
+          },
+          {
+            "productId": "5",
+            "quantity": 1
+          },
+          {
+            "productId": "12",
+            "quantity": 2
+          }
+        ],
+        "total": 615,
+        "date": "2025-04-18"
+      },
+      {
+        "id": "3c9d",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 3
+          }
+        ],
+        "total": 307,
+        "date": "2025-04-21"
+      },
+      {
+        "id": "655d",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 2
+          }
+        ],
+        "total": 208,
+        "date": "2025-04-21",
+        "address": "Cổ Nhuế 2, Hà Nội, Việt Nam"
+      },
+      {
+        "id": "0571",
+        "userId": "8c8c",
+        "products": [
+          {
+            "productId": "4",
+            "quantity": 6
+          },
+          {
+            "productId": "9",
+            "quantity": 1
+          },
+          {
+            "productId": "21",
+            "quantity": 4
+          },
+          {
+            "productId": "3",
+            "quantity": 1
+          },
+          {
+            "productId": "5",
+            "quantity": 1
+          }
+        ],
+        "total": 1025,
+        "date": "2025-04-22",
+        "address": "Hâ, Hà nooik, VN"
+      },
+      {
+        "id": "921b",
+        "userId": "16bf",
+        "products": [
+          {
+            "productId": "1",
+            "quantity": 3
+          }
+        ],
+        "total": 307,
+        "date": "2025-04-22",
+        "address": "Cổ Nhuế 2, Hà Nội, Việt Nam"
+      }
+    ]
+  }
